@@ -1644,7 +1644,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: fixed;
     right: 38px;
     top: 24px;
-    height: 42px;
+    height: 41.5px;
     width: 42px;
     line-height: 42px;
     font-family: "montserrat-medium", sans-serif;
@@ -3612,3 +3612,8 @@ footer .row {
     z-index: -1;
     object-fit: cover;
   }
+
+
+.clients_center {
+    margin-left: 35%;
+}
