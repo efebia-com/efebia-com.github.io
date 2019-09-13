@@ -3617,3 +3617,25 @@ footer .row {
 .clients_center {
     margin-left: 35%;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.cinfo {
+    text-align: left;
+    width: 33%;
+
+}
+
+.contact-background {
+    background-color: #000000;
+}
+
+.gray-link {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.cinfo-row {
+    padding-left: 10%;
+}
