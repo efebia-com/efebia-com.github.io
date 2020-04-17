@@ -1070,11 +1070,19 @@
 
         <div class="row footer-bottom">
 
-            <div class="col-twelve">
+            <div class="col-four">
+                <div class="privacy-cookie-conditions">
+                    <span class="linkConditions" onclick="showConditions()">Privacy & Cookie</span>
+                </div>
+            </div>
+
+            <div class="col-four">
                 <div class="copyright">
                     <span id="copyrightYear"></span>
                 </div>
+            </div>
 
+            <div class="col-four">
                 <div class="go-top">
                     <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up"
                             aria-hidden="true"></i></a>
@@ -1086,7 +1094,7 @@
     </footer> <!-- end footer -->
 
     <!-- START Bootstrap-Cookie-Alert -->
-    <div class="alert text-center cookiealert" role="alert">
+    <div id="cookieBanner" class="alert text-center cookiealert" role="alert">
         We use cookies to ensure you get the best experience on our website. This does not includes personalizing content and advertising.
         <span class="link" onclick="showConditions()">Learn more</span>
 

@@ -3650,6 +3650,10 @@ footer .row {
      text-decoration:underline;
 }
 
+.linkConditions {
+    cursor:pointer;
+}
+
 .cookiealert {
     font-family: "montserrat-regular", sans-serif;
     padding-top: 0.7em;

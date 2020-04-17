@@ -434,6 +434,12 @@
         ;
     }
 
+    const hideBanner = () => {
+        $(window).scroll(function (e) {
+            $('#cookieBanner').fadeOut(); // Fading out the button on scroll after 300px
+        });
+    }
+
     /* Back to Top
      * ------------------------------------------------------ */
     var clBackToTop = function () {
@@ -474,13 +480,16 @@
         clAjaxChimp();
         clBackToTop();
         setCopyrightYear();
-
+        hideBanner();
     })();
 
 
 })(jQuery);
 
 const showConditions = () => {
+    var url = location.href;               //Save down the URL without hash.
+    location.href = "#top";                 //Go to the target element.
+    history.replaceState(null, null, url);
     document.getElementById('home').classList.add("displayNone");
     document.getElementById('about').classList.add("displayNone");
     document.getElementById('services').classList.add("displayNone");
