@@ -3670,3 +3670,21 @@ footer .row {
         left: 2em;
     }
 }
+
+.selectLang {
+    position: fixed;
+    top: 1.8em;
+    color: #18bc9c;
+    right: 10em;
+    font-family: "montserrat-medium", sans-serif;
+}
+
+.selectLang a {
+    color: #18bc9c;
+}
+
+@media only screen and (max-width: 600px) {
+    .selectLang {
+        right: 5em;
+    }
+}
