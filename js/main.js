@@ -485,22 +485,3 @@
 
 
 })(jQuery);
-
-const showConditions = () => {
-    var url = location.href;               //Save down the URL without hash.
-    location.href = "#top";                 //Go to the target element.
-    history.replaceState(null, null, url);
-    document.getElementById('home').classList.add("displayNone");
-    document.getElementById('about').classList.add("displayNone");
-    document.getElementById('services').classList.add("displayNone");
-    document.getElementById('contact').classList.add("displayNone");
-    document.getElementById('privacy-cookie-conditions').classList.remove("displayNone");
-}
-
-const hideConditions = () => {
-    document.getElementById('home').classList.remove("displayNone");
-    document.getElementById('about').classList.remove("displayNone");
-    document.getElementById('services').classList.remove("displayNone");
-    document.getElementById('contact').classList.remove("displayNone");
-    document.getElementById('privacy-cookie-conditions').classList.add("displayNone");
-}
